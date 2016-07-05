@@ -1,0 +1,24 @@
+## R >= 2.8.0 passes package metadata to citation().
+if(!exists("meta") || is.null(meta)) meta <- packageDescription("StreamMetabolism")
+year <- sub("-.*", "", meta$Date)
+note <- sprintf("R package version %s.", meta$Version)
+
+citEntry(entry = "Manual",
+	 title = {
+             paste("Stream Metabolism-A package for calculating single station metabolism from diurnal Oxygen curves")
+         },
+	 author = personList(
+           person(first = "Stephen", last = "Sefick",
+                  email = "ssefick@gmail.com")),
+         year = year,
+	 	  note = {
+             paste(note,
+               		 "by Stephen Sefick Jr.")
+         },
+	 url = "http://CRAN.R-project.org/package=StreamMetabolism",
+	 textVersion = {
+             paste("Stephen Sefick Jr.",
+	           sprintf("(%s).", year),
+                   "Stream Metabolism-A package for calculating single station metabolism from diurnal Oxygen curves",
+		   note)
+         })
