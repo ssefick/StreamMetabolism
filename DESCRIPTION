@@ -2,7 +2,7 @@ Package: StreamMetabolism
 Type: Package
 Title: Calculate Single Station Metabolism from Diurnal Oxygen Curves
 Version: 1.1.2
-Date: 2015-04-24
+Date: 2016-08-24
 Author: Stephen A Sefick Jr.
 Maintainer: Stephen A Sefick Jr. <ssefick@gmail.com>
 URL: https://github.com/ssefick/StreamMetabolism
