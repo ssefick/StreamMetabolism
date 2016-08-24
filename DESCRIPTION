@@ -5,6 +5,7 @@ Version: 1.1.2
 Date: 2015-04-24
 Author: Stephen A Sefick Jr.
 Maintainer: Stephen A Sefick Jr. <ssefick@gmail.com>
+URL: https://github.com/ssefick/StreamMetabolism
 Depends: zoo, chron, maptools
 Description: I provide functions to calculate Gross Primary Productivity, Net Ecosystem Production, and Ecosystem Respiration from single station diurnal Oxygen curves.  
 License: GPL (>=3)

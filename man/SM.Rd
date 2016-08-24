@@ -15,8 +15,8 @@ start="00:00:00", end="23:45:00")
 \arguments{
   \item{depth}{ depth m \code{K} }
    \item{min_interval}{ time resolution (e.g., 15 min) }
-  \item{temp}{ Zoo time Series temperature in degrees Celcius }
-  \item{DO}{ Zoo time Series Dissolved Oxygen in mg/L }
+  \item{temp}{ Zoo time Series temperature in degrees Celcius (see details)}
+  \item{DO}{ Zoo time Series Dissolved Oxygen in mg/L (see details)}
   \item{day}{ date of the day of interest must be in quotes }
   \item{start}{ time of the start of the "day" usually 00:00:00 must be in quotes}
   \item{end}{ time of the end of the "day" usually 23:45:00 must be in quotes}
@@ -27,6 +27,8 @@ start="00:00:00", end="23:45:00")
 \details{
 
 The input data has to be a zoo time series constructed with a chron date time object of month/day/year hr:min:sec (i.e., 08/18/70 23:15:00)
+
+sr and ss should be after and before the start and end of the time series, respectively. 
 
 ER is calculated as sum Et (i.e, mean nighttime NEP corrected for the difference in daytime temp and average nighttime temp)
 
