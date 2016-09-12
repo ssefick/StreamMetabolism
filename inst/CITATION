@@ -15,7 +15,7 @@ citEntry(entry = "Manual",
              paste(note,
                		 "by Stephen Sefick Jr.")
          },
-	 url = "http://CRAN.R-project.org/package=StreamMetabolism",
+	 url = "https://cran.r-project.org/package=StreamMetabolism",
 	 textVersion = {
              paste("Stephen Sefick Jr.",
 	           sprintf("(%s).", year),
